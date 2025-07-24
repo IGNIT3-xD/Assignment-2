@@ -1,12 +1,33 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
-@layer utilities{
-    .font-noto{
+@layer utilities {
+    .font-noto {
         font-family: "Noto Serif", serif;
     }
 
-    .font-inter{
-          font-family: "Inter", sans-serif;
+    .font-inter {
+        font-family: "Inter", sans-serif;
+    }
+
+    .bg-bloom {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(./resources/assets/deal-bloom.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bg-ana {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(./resources/assets/deal-ana.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bg-zabo {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(./resources/assets/deal-zabo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 }
